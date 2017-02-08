@@ -5,15 +5,15 @@ import sys
 import shutil
 from xml.etree import ElementTree
 
-COC_APK_PATH = "F:/CoC/old/com.supercell.clashofclans-8-709-16.apk"
-APKTOOL_PATH = "F:/CoC/apktool/apktool.jar"
+COC_APK_PATH = "C:/temp/com.supercell.clashofclans-8-709-16.apk"
+APKTOOL_PATH = "C:/temp/apktool/apktool.jar"
 JDK_BIN_PATH = "C:/Program Files (x86)/Java/jdk1.8.0_111/bin"
-ANDROID_SDK_PATH = "C:/Users/Ruslan/AppData/Local/Android/sdk/build-tools/23.0.3"
+ANDROID_SDK_PATH = "C:/Users/Username/AppData/Local/Android/sdk/build-tools/23.0.3"
 
 KEY_STORE = "appkey.keystore"
-KEY_STOREPASS = "Gfhjkm123"
-KEY_PASS = "Gfhjkm123"
-KEY_ALIAS = "MyKey"
+KEY_STOREPASS = "Password"
+KEY_PASS = "Password"
+KEY_ALIAS = "KeyAlias"
 
 OLD_PUBLICKKEY = "4102C28189897A48CEDFA8C6E5378F55624F9E8408FA8A376643DBBCE715B21A".decode("hex")
 NEW_PUBLICKKEY = "72F1A4A4C48E44DA0C42310F800E96624E6DC6A641A9D41C3B5039D8DFADC27E".decode("hex")
